@@ -223,10 +223,10 @@ function populateElementVars() {
 let jtfr = {
     tFind: [
         "WalletShell",
-        "https://github.com/elphyrecoin/elphyre-wallet-electron",
-        "Elphyrecoin",
-        "ELPH",
-        "elphyre-service"
+        "https://github.com/pengolincoin/pengolin-wallet-electron",
+        "PengolinCoin",
+        "PGO",
+        "pengolin-service"
     ],
     tReplace: [
         config.appName,

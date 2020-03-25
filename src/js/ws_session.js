@@ -3,7 +3,7 @@ const remote = require('electron').remote;
 const Store = require('electron-store');
 const settings = new Store({ name: 'Settings' });
 
-const DEFAULT_TITLE = 'WalletShell Elphyrecoin Wallet';
+const DEFAULT_TITLE = 'WalletShell PengolinCoin Wallet';
 const SESSION_KEY = 'wlshell';
 
 const IS_DEBUG = remote.getGlobal('wsession').debug;
@@ -31,7 +31,7 @@ var WalletShellSession = function () {
         txNew: [],
         nodeFee: 0,
         nodeChoices: settings.get('pubnodes_data', []),
-        servicePath: settings.get('service_bin', 'elphyre-service'),
+        servicePath: settings.get('service_bin', 'pengolin-service'),
         configUpdated: false,
         uiStateChanged: false,
         defaultTitle: DEFAULT_TITLE,

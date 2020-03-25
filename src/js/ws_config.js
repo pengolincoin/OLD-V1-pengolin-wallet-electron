@@ -16,7 +16,7 @@ config.walletFileDefaultExt = 'ewl';
 // change this to match your wallet service executable filename
 config.walletServiceBinaryFilename = 'pengolin-service';
 
-// version on the bundled service (elphyre-service)
+// version on the bundled service (pengolin-service)
 config.walletServiceBinaryVersion = "0.0.0.4";
 
 // config file format supported by wallet service, possible values:
@@ -38,9 +38,9 @@ config.remoteNodeListUpdateUrl = null;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  '78.46.222.91:17897',
-  '51.159.55.89:17897',
-  '116.203.178.152:17897',
+  '78.46.222.91:17898',
+  '51.159.55.89:17898',
+  '116.203.178.152:17898',
 ];
 
 // your currency name
