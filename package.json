@@ -2,7 +2,7 @@
   "name": "pengolin-walletshell",
   "productName": "Pengolin-WalletShell",
   "description": "PengolinCoin GUI Wallet",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "homepage": "https://github.com/pengolincoin/pengolin-wallet-electron",
   "repository": "https://github.com/pengolincoin/pengolin-wallet-electron",
   "main": "main.js",

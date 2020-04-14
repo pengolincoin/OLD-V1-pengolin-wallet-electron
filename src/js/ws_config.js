@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'ewl';
 config.walletServiceBinaryFilename = 'pengolin-service';
 
 // version on the bundled service (pengolin-service)
-config.walletServiceBinaryVersion = "0.0.0.4";
+config.walletServiceBinaryVersion = "0.0.0.5";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -39,7 +39,7 @@ config.remoteNodeListUpdateUrl = null;
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
   '78.46.222.91:17898',
-  '51.159.55.89:17898',
+  'pengo.cpupool.cn:17898',
   '116.203.178.152:17898',
 ];
 
