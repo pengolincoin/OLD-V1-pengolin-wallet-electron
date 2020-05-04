@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'ewl';
 config.walletServiceBinaryFilename = 'pengolin-service';
 
 // version on the bundled service (pengolin-service)
-config.walletServiceBinaryVersion = "0.0.0.6";
+config.walletServiceBinaryVersion = "1.0.0.1";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
