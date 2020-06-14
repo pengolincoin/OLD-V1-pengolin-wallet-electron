@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'ewl';
 config.walletServiceBinaryFilename = 'pengolin-service';
 
 // version on the bundled service (pengolin-service)
-config.walletServiceBinaryVersion = "2.0.0.1";
+config.walletServiceBinaryVersion = "2.0.0.2";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -34,11 +34,12 @@ config.blockExplorerUrl = 'http://peng-explorer.s2ii.xyz/?hash=[[TX_HASH]]#block
 config.remoteNodeDefaultHost = '78.46.222.91';
 
 // remote node list update url, set to null if you don't have one
-config.remoteNodeListUpdateUrl = https://raw.githubusercontent.com/pengolincoin/pgo-nodes-json/master/nodes.json;
+config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/pengolincoin/pgo-nodes-json/master/nodes.json';
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
   '78.46.222.91:17898',
+  '157.245.253.29:17898',
   '116.203.178.152:17898',
 ];
 
